@@ -1,0 +1,265 @@
+
+header{
+    width: 100vh;
+
+    display: inline-flex;
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+}
+
+/*選單*/
+
+.logo {
+    margin-left: 20px; 
+    line-height: 60px;
+    position: fixed;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: none;
+    display: inline-flex;
+    
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    margin-top: -20px;
+}
+
+nav a{
+    display: inline-block;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: #fff;
+    overflow: hidden;
+    color: #707070;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: rgb(255, 255, 255);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;
+    padding-top: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5A93AD;
+    font-size: 16px;
+}
+
+.vip1{
+    width: 30px;
+    height: 30px;
+    display: none;
+    
+}
+
+.car1{
+    width: 30px;
+    height: 30px;
+    display: none;
+    margin-left: 10px;
+}
+
+.vip{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -5px;
+}
+
+.car{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -5px;
+}
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #707070;
+    display: none;
+    padding: 40px;
+}
+
+
+/*選單*/
+
+
+
+
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+          display: block;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #fff;
+    }
+
+    nav.black ul {
+          background: #fff;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #707070;
+        font-size: 16px;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    .logo{
+          display: block;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+    
+    .cak1{
+        display: none;
+    }
+
+    .cak1-2{
+        display: inline-block;
+        display: block;
+        
+    }
+
+    .vip1{
+        display: block;
+    }
+    
+    .car1{
+        display: block;
+    }
+
+    .vip{
+          display: none;
+    }
+
+    .car{
+          display: none;
+    }
+
+    
+}
+
+@media(max-width: 786px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+        display: block;
+  }
+
+  nav ul {
+        max-height: 0px;
+        background: #fff;
+  }
+
+  nav.black ul {
+        background: #fff;
+  }
+  
+  nav ul li a {
+      text-decoration: none;
+      color: #707070;
+      font-size: 16px;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  .logo{
+        display: block;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+  
+  .cak1{
+      display: none;
+  }
+
+  .cak1-2{
+      display: inline-block;
+      display: block;
+      
+  }
+
+  .vip1{
+      display: block;
+  }
+  
+  .car1{
+      display: block;
+  }
+
+  .vip{
+        display: none;
+  }
+
+  .car{
+        display: none;
+  }
+
+  .menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #707070;
+    display: block ;
+    padding: 40px 40px 0px 40px;
+}
+
+}
